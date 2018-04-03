@@ -1,0 +1,37 @@
+{
+    "bounty": [
+        {
+        "id": 0, 
+        "name": "David",
+        "profileImage":"no-pic",
+        "reward": 4000,
+        "object": "capture",
+        "employer": "jabba the hutt",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet enim consectetur iaculis interdum. Aenean malesuada vel tellus dignissim vulputate. Maecenas fringilla sit amet ex quis lacinia. Curabitur eros justo, placerat vitae scelerisque ut, fermentum a mi. Morbi ultrices, velit eu rhoncus lacinia, diam magna scelerisque magna, vel ornare ipsum dui ut libero. Nulla tincidunt urna et sagittis fermentum. Suspendisse laoreet vitae arcu vitae blandit. Vivamus placerat, sem pulvinar egestas vestibulum, enim elit tincidunt tellus, ac facilisis erat leo non lorem. Morbi mi urna, dignissim et augue ut, rutrum pharetra diam. Integer tellus tortor, gravida in aliquam at, malesuada tincidunt enim. Fusce condimentum tortor ultrices, posuere enim ut, feugiat nunc. Etiam malesuada gravida lacus, ut finibus elit tristique at. Morbi id molestie elit. Donec tristique nibh et augue lacinia, quis elementum orci suscipit. Proin congue tortor cursus libero ullamcorper, non rutrum tortor egestas.",        
+        "planet":"Earth",
+        "planetImage":"earth"
+    },
+        {
+        "id": 0, 
+        "name": "Emma",
+        "profileImage":"emma",
+        "reward": 5000,
+        "object": "kill",
+        "employer": "jabba the hutt",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet enim consectetur iaculis interdum. Aenean malesuada vel tellus dignissim vulputate. Maecenas fringilla sit amet ex quis lacinia. Curabitur eros justo, placerat vitae scelerisque ut, fermentum a mi. Morbi ultrices, velit eu rhoncus lacinia, diam magna scelerisque magna, vel ornare ipsum dui ut libero. Nulla tincidunt urna et sagittis fermentum. Suspendisse laoreet vitae arcu vitae blandit. Vivamus placerat, sem pulvinar egestas vestibulum, enim elit tincidunt tellus, ac facilisis erat leo non lorem. Morbi mi urna, dignissim et augue ut, rutrum pharetra diam. Integer tellus tortor, gravida in aliquam at, malesuada tincidunt enim. Fusce condimentum tortor ultrices, posuere enim ut, feugiat nunc. Etiam malesuada gravida lacus, ut finibus elit tristique at. Morbi id molestie elit. Donec tristique nibh et augue lacinia, quis elementum orci suscipit. Proin congue tortor cursus libero ullamcorper, non rutrum tortor egestas.",       
+        "planet":"Earth",
+        "planetImage":"earth"
+    },
+        {
+        "id": 0, 
+        "name": "Pontus",
+        "profileImage":"no-pic",
+        "reward": 3000,
+        "object": "find",
+        "employer": "imperial fleet",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet enim consectetur iaculis interdum. Aenean malesuada vel tellus dignissim vulputate. Maecenas fringilla sit amet ex quis lacinia. Curabitur eros justo, placerat vitae scelerisque ut, fermentum a mi. Morbi ultrices, velit eu rhoncus lacinia, diam magna scelerisque magna, vel ornare ipsum dui ut libero. Nulla tincidunt urna et sagittis fermentum. Suspendisse laoreet vitae arcu vitae blandit. Vivamus placerat, sem pulvinar egestas vestibulum, enim elit tincidunt tellus, ac facilisis erat leo non lorem. Morbi mi urna, dignissim et augue ut, rutrum pharetra diam. Integer tellus tortor, gravida in aliquam at, malesuada tincidunt enim. Fusce condimentum tortor ultrices, posuere enim ut, feugiat nunc. Etiam malesuada gravida lacus, ut finibus elit tristique at. Morbi id molestie elit. Donec tristique nibh et augue lacinia, quis elementum orci suscipit. Proin congue tortor cursus libero ullamcorper, non rutrum tortor egestas.",
+        "planet":"Earth",
+        "planetImage":"earth"
+        }
+    ]
+}
