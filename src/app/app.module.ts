@@ -16,6 +16,7 @@ import { ProfileViewComponent} from './shared/profile-view.component'
 import { NavButtonComponent} from './shared/nav-button.component'
 
 import { DataManagerService } from './shared/data-manager.service'
+import { SearchPipe }from './shared/search.pipe';
 
 const appRoutes: Routes = [
   { path: 'board', component: BoardComponent },
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
     ListComponent,
     ProfileDetailsComponent,
     ProfileViewComponent,
-    NavButtonComponent
+    NavButtonComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,

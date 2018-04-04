@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { DataManagerService } from './shared/data-manager.service'
 import { FactoryOrValue } from 'rxjs/interfaces';
 
@@ -7,9 +7,11 @@ import { FactoryOrValue } from 'rxjs/interfaces';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   data : any;
   ready : boolean = false;
+  number : number = 0;
   constructor(private datamanager: DataManagerService) { 
   }
   async ngOnInit() {
@@ -21,4 +23,21 @@ export class AppComponent {
   {
     this.datamanager.accepted = false;
   }
+
+  @HostListener('document:click', ['$event'])
+  public documentClick(event: Event): void {
+    if(this.datamanager.accepted == true)
+    {
+      if(this.number == 1)
+      {
+        this.datamanager.accepted = false;
+        this.number = 0;
+      }
+      else 
+      {
+        this.number++;
+      }
+    }
+  }
+
 }
