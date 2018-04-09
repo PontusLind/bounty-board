@@ -17,7 +17,7 @@ import {Observable} from 'rxjs/Rx';
 
   <ul class="list-group list-group-flush">
     <li class="list-group-item">Reward: {{data.reward}} credits</li>
-    <li class="list-group-item">Objectiv: {{data.object}}</li>
+    <li class="list-group-item">Objective: {{data.object}}</li>
   </ul>
 </div>
 

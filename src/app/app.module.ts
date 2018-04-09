@@ -17,6 +17,7 @@ import { NavButtonComponent} from './shared/nav-button.component'
 
 import { DataManagerService } from './shared/data-manager.service'
 import { SearchPipe }from './shared/search.pipe';
+import { OrderByPipe }from './shared/order-by.pipe';
 
 const appRoutes: Routes = [
   { path: 'board', component: BoardComponent },
@@ -36,7 +37,8 @@ const appRoutes: Routes = [
     ProfileDetailsComponent,
     ProfileViewComponent,
     NavButtonComponent,
-    SearchPipe
+    SearchPipe,
+    OrderByPipe
   ],
   imports: [
     BrowserModule,

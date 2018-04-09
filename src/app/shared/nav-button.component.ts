@@ -15,7 +15,7 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
   </div>
 
   <div *ngIf="isBoard == true">
-  <a class="nav-button nav-button-1" (click)="onGoToProfile(datamanager.bounty.id)">Detales</a>
+  <a class="nav-button nav-button-1" (click)="onGoToProfile(datamanager.bounty.id)">Details</a>
   </div>
     `
 })
